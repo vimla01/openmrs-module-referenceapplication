@@ -520,10 +520,9 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.1</version>
 					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
+						<target>1.6</target>
+						<source>1.6</source>
 					</configuration>
 				</plugin>
 				<plugin>
